@@ -32,10 +32,6 @@ int WinMain(HINSTANCE hInstance,
 	defaultDevice->Release();
 	defaultDevice = NULL;
 
-	// Gets display resolution
-	int resox = GetSystemMetrics(SM_CXSCREEN); // Gets Width
-	int resoy = GetSystemMetrics(SM_CYSCREEN); // Gets Height
-
 	while (true)
 	{
 		// 5 to 10 minutes wait
